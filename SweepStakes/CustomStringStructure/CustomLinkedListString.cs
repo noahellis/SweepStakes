@@ -7,24 +7,19 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class SystemString : ICustomString
+    class CustomLinkedListString : ICustomString
     {
-        void ICustomString.Insert(string stringToInsert)
+        public void Insert(string stringToInsert, int index)
         {
             throw new NotImplementedException();
         }
 
-        int ICustomString.length()
+        public int length()
         {
             throw new NotImplementedException();
         }
 
-        void ICustomString.Remove(int startIndex, int numCharsToRemove)
-        {
-            throw new NotImplementedException();
-        }
-
-        string ICustomString.ToString()
+        public void Remove(int startIndex, int numCharsToRemove)
         {
             throw new NotImplementedException();
         }

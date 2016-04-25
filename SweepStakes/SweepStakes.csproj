@@ -43,17 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomLinkedListString.cs" />
-    <Compile Include="ICustomString.cs" />
+    <Compile Include="Sweepstakes\Contestant.cs" />
+    <Compile Include="CustomStringStructure\CustomLinkedListString.cs" />
+    <Compile Include="CustomStringStructure\ICustomString.cs" />
+    <Compile Include="CustomStringStructure\Node.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Sweepstakes\ISweepstakesManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SystemArrayString.cs" />
-    <Compile Include="SystemLinkedListString.cs" />
-    <Compile Include="SystemString.cs" />
+    <Compile Include="CustomStringStructure\SystemArrayString.cs" />
+    <Compile Include="CustomStringStructure\SystemLinkedListString.cs" />
+    <Compile Include="CustomStringStructure\SystemString.cs" />
+    <Compile Include="Sweepstakes\Sweepstakes.cs" />
+    <Compile Include="Sweepstakes\SweepstakesQueueManager.cs" />
+    <Compile Include="Sweepstakes\SweepstakesStackManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

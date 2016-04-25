@@ -10,7 +10,12 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
-            
+            SweepstakesQueueManager test = new SweepstakesQueueManager();
+            test.GetNextSweepstakesWinner();
+            SweepstakesStackManager testStack = new SweepstakesStackManager();
+            testStack.GetNextSweepstakesWinner();
+            Console.ReadKey();
+
         }
     }
 }
